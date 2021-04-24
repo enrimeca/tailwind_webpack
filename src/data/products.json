@@ -1,0 +1,24 @@
+{
+  "products" : [
+    {
+      "name": "Miel de abeja",
+      "image": "assets/images/miel.jpg",
+      "description": "Explicabo veniam nesciunt ex sint cum eum voluptatem, placeat necessitatibus vitae exercitationem quas rem dicta optio."      
+    },
+    {
+      "name": "Algarrobina",
+      "image": "assets/images/algarrobina.jpg",
+      "description": "Voluptas consequatur pariatur numquam doloremque, esse rerum error repellendus tempora laboriosam officiis."
+    },
+    {
+      "name": "Polen",
+      "image": "assets/images/polen.jpg",
+      "description": "Quaerat magni debitis neque, quas quidem in vero, dicta quis expedita labore esse, libero ad."
+    },
+    {
+      "name": "Propóleo",
+      "image": "assets/images/propoleo.jpg",
+      "description": "Totam at voluptas ab commodi libero, aperiam molestias pariatur fugit rerum quam quas sapiente possimus. Nostrum fugit ut expedita."
+    }
+  ]
+}
