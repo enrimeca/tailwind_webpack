@@ -1,5 +1,5 @@
 import React from 'react';
-import Bees from '@images/bees.jpg';
+import Bees from '../../assets/images/bees.jpg';
 
 const Hero = ({title, company, resume}) => {
   return (

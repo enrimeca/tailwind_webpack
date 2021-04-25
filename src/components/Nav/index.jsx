@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '@images/logo.png';
+import Logo from '../../assets/images/logo.png';
 
 const Nav = ({options, color}) => {
   const [hidden, setHidden] = useState(true);

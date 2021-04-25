@@ -22,14 +22,14 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
-    alias: {
-      '@data': path.resolve(__dirname, 'src/data/'),
-      '@containers': path.resolve(__dirname, 'src/containers/'),
-      '@components': path.resolve(__dirname, 'src/components/'),
-      '@elements': path.resolve(__dirname, 'src/elements/'),
-      '@styles': path.resolve(__dirname, 'src/assets/styles'),
-      '@images': path.resolve(__dirname, 'src/assets/images')
-    }
+    // alias: {
+    //   '@data': path.resolve(__dirname, 'src/data/'),
+    //   '@containers': path.resolve(__dirname, 'src/containers/'),
+    //   '@components': path.resolve(__dirname, 'src/components/'),
+    //   '@elements': path.resolve(__dirname, 'src/elements/'),
+    //   '@styles': path.resolve(__dirname, 'src/assets/styles'),
+    //   '@images': path.resolve(__dirname, 'src/assets/images')
+    // }
   },
   mode: 'production',
   module: {
