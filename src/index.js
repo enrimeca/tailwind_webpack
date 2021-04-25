@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/styles/index.css';
 import App from './App';
+import { ThemeProvider } from './context';
+
 
 ReactDOM.render(
-    <App />,
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
   document.getElementById('app')
 );

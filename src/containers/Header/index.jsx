@@ -5,7 +5,7 @@ import options from '../../data/menu.json'
 const Header = () => {
   return (
     <header>
-      <Nav options={options.items} color={'yellow'} />
+      <Nav options={options.items}/>
     </header>
   )
 }

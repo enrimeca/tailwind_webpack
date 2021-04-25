@@ -11,12 +11,11 @@ const Template = (args) => <Nav {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  options: data.items,
-  color: 'yellow'
+  options: data.items
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  options: data.items,
-  color: 'gray'
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   options: data.items,
+//   color: 'gray'
+// };

@@ -4,7 +4,7 @@
 
 @layer components {
   .item-menu {
-    @apply text-lg text-white hover:bg-yellow-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+    @apply text-lg text-white hover:bg-yellow-700 dark:hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
   }
 
   .collapse-btn {
@@ -12,7 +12,7 @@
   }
 
   .section-title {
-    @apply uppercase tracking-wide text-2xl text-red-800 font-bold mb-8 text-center;
+    @apply uppercase tracking-wide text-2xl text-red-800 dark:text-white font-bold mb-8 text-center;
   }
 
   .form-control {
